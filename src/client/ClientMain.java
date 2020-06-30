@@ -13,8 +13,8 @@ public class ClientMain extends Application
     @Override
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("view/ClientWin.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("Hello Player");
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
 

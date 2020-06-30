@@ -1,4 +1,6 @@
 package client.controller;
 
-public class ClientWinController {
+public class ClientWinController
+{
+
 }

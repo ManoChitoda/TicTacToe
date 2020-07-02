@@ -30,7 +30,7 @@ public class ClientMain extends Application
             loader.setLocation(getClass().getResource("./view/Welcome.fxml"));
             Parent root = loader.load();
             Welcome welcome = loader.getController();
-
+            welcome.init();
             // append to scene
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);

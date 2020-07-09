@@ -16,14 +16,7 @@ public class ClientMain extends Application
     @Override
     public void start(Stage primaryStage) throws IOException
     {
-        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>()
-        {
-            @Override
-            public void handle(WindowEvent e)
-            {
-                System.exit(0);
-            }
-        });
+        primaryStage.setOnCloseRequest(e -> System.exit(0));
         try{
             // display user interface
             FXMLLoader loader = new FXMLLoader();

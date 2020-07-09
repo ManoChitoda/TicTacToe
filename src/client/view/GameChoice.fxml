@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.GameChoice">
+    <children>
+        <Label layoutX="21.0" layoutY="45.0" text="Choose Your Opponent">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="computer" layoutX="84.0" layoutY="103.0" mnemonicParsing="false" onAction="#choice" prefHeight="27.0" prefWidth="78.0" text="Computer" />
+        <Button fx:id="human" layoutX="84.0" layoutY="160.0" mnemonicParsing="false" onAction="#choice" prefHeight="27.0" prefWidth="78.0" text="Human" />
+    </children>
+</Pane>
